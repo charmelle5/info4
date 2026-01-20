@@ -1,1 +1,42 @@
+<head>
+<title> Mon tableau </title>
+<meta name=”author” content=”Your Name Here” />
+<meta name=”description” content=”A beginning web page for CSIT-107 SUNY Fredonia” />
+<meta name=”keywords” content=”beginning html, learning, CSIT-107″ />
 
+<table border="2"
+cellspacing="0"
+cellpadding="10"
+width="600 ">
+	<caption> Planning repas </caption>
+	<tr> 
+		<th></th> 
+		<th>Lundi</th> 
+		<th>Mardi</th> 
+		<th>Mercredi</th>
+		<th>Jeudi</th>
+		<th>Vendredi</th> 
+		<th>Total</th>
+	</tr>
+	<tr>
+		<td>Selles</td>
+		<td colspan ="3">5</td>
+		<td colspan ="2" rowspan="2">(quotat atteint)</td>
+		<td> 15</td>
+		 </tr>
+	<tr>
+		<td>Roulant</td>
+		<td colspan ="3" style = " background-color : pink">(hors matériel)</td>
+		<td rowspan="1" style = " background-color : silver">25</td> </tr>
+	</tr>
+	<tr>
+		<td>Jambe standart</td>
+		<td>4</td>
+		<td>8</td>
+		<td>12</td>
+		<td>4</td>
+		<td></td>
+		<td>28</td>
+	 </tr>
+</table>
+</head>
